@@ -4,6 +4,7 @@
 PackageIdentifier: Microsoft.DotNet.DesktopRuntime.8
 PackageVersion: 8.0.20
 MinimumOSVersion: 6.1.7601
+Scope: machine
 InstallerSwitches:
   Silent: /quiet
   SilentWithProgress: /passive
@@ -41,4 +42,5 @@ Installers:
     ProductCode: '{8173f945-64eb-4aaa-b3a6-cd0137ef08c7}'
 ManifestType: installer
 ManifestVersion: 1.9.0
+
 
